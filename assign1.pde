@@ -38,6 +38,6 @@ void draw() {
   x2 %= 640;
   rectMode(CORNERS);
   fill(255, 0, 0);
-  rect(10, 5, hpBarXposition ,30);
+  rect(15, 5, hpBarXposition ,30);
   image(hp, 5, 5);
 }
